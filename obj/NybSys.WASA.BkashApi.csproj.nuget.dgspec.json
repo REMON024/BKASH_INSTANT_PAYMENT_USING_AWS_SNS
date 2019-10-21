@@ -1,0 +1,1110 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\wasa-dashboard\\testapi\\NybSys.WASA.BkashApi.csproj": {}
+  },
+  "projects": {
+    "F:\\wasa-dashboard\\NybSys.MassTransit.Broker\\NybSys.MassTransit.Broker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\wasa-dashboard\\NybSys.MassTransit.Broker\\NybSys.MassTransit.Broker.csproj",
+        "projectName": "NybSys.MassTransit.Broker",
+        "projectPath": "F:\\wasa-dashboard\\NybSys.MassTransit.Broker\\NybSys.MassTransit.Broker.csproj",
+        "packagesPath": "C:\\Users\\Remon\\.nuget\\packages\\",
+        "outputPath": "F:\\wasa-dashboard\\NybSys.MassTransit.Broker\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Remon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "F:\\wasa-dashboard\\NybSys.WASA.AuditLog.BLL\\NybSys.WASA.AuditLog.BLL.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.AuditLog.BLL\\NybSys.WASA.AuditLog.BLL.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.Common\\NybSys.WASA.Common.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Common\\NybSys.WASA.Common.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.Models\\NybSys.WASA.Models.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Models\\NybSys.WASA.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[5.1.4, )"
+            },
+            "MassTransit.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.1.4, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[5.1.4, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\wasa-dashboard\\NybSys.NServiceBus.Broker\\NybSys.NServiceBus.Broker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\wasa-dashboard\\NybSys.NServiceBus.Broker\\NybSys.NServiceBus.Broker.csproj",
+        "projectName": "NybSys.NServiceBus.Broker",
+        "projectPath": "F:\\wasa-dashboard\\NybSys.NServiceBus.Broker\\NybSys.NServiceBus.Broker.csproj",
+        "packagesPath": "C:\\Users\\Remon\\.nuget\\packages\\",
+        "outputPath": "F:\\wasa-dashboard\\NybSys.NServiceBus.Broker\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Remon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "F:\\wasa-dashboard\\NybSys.WASA.Common\\NybSys.WASA.Common.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Common\\NybSys.WASA.Common.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.Models\\NybSys.WASA.Models.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Models\\NybSys.WASA.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "NServiceBus": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "NServiceBus.Callbacks": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "NServiceBus.RabbitMQ": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\wasa-dashboard\\NybSys.WASA.Account.BLL\\NybSys.WASA.Account.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\wasa-dashboard\\NybSys.WASA.Account.BLL\\NybSys.WASA.Account.BLL.csproj",
+        "projectName": "NybSys.WASA.Account.BLL",
+        "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Account.BLL\\NybSys.WASA.Account.BLL.csproj",
+        "packagesPath": "C:\\Users\\Remon\\.nuget\\packages\\",
+        "outputPath": "F:\\wasa-dashboard\\NybSys.WASA.Account.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Remon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "F:\\wasa-dashboard\\NybSys.WASA.AuditLog.BLL\\NybSys.WASA.AuditLog.BLL.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.AuditLog.BLL\\NybSys.WASA.AuditLog.BLL.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.Common\\NybSys.WASA.Common.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Common\\NybSys.WASA.Common.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.DAL\\NybSys.WASA.DAL.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.DAL\\NybSys.WASA.DAL.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.ExceptionLogManager.BLL\\NybSys.WASA.ExceptionLogManger.BLL.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.ExceptionLogManager.BLL\\NybSys.WASA.ExceptionLogManger.BLL.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.Models\\NybSys.WASA.Models.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Models\\NybSys.WASA.Models.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.Repository\\NybSys.WASA.Repository.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Repository\\NybSys.WASA.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\wasa-dashboard\\NybSys.WASA.AuditLog.BLL\\NybSys.WASA.AuditLog.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\wasa-dashboard\\NybSys.WASA.AuditLog.BLL\\NybSys.WASA.AuditLog.BLL.csproj",
+        "projectName": "NybSys.WASA.AuditLog.BLL",
+        "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.AuditLog.BLL\\NybSys.WASA.AuditLog.BLL.csproj",
+        "packagesPath": "C:\\Users\\Remon\\.nuget\\packages\\",
+        "outputPath": "F:\\wasa-dashboard\\NybSys.WASA.AuditLog.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Remon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "F:\\wasa-dashboard\\NybSys.WASA.Common\\NybSys.WASA.Common.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Common\\NybSys.WASA.Common.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.DAL\\NybSys.WASA.DAL.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.DAL\\NybSys.WASA.DAL.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.Models\\NybSys.WASA.Models.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Models\\NybSys.WASA.Models.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.Repository\\NybSys.WASA.Repository.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Repository\\NybSys.WASA.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\wasa-dashboard\\NybSys.WASA.Common\\NybSys.WASA.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\wasa-dashboard\\NybSys.WASA.Common\\NybSys.WASA.Common.csproj",
+        "projectName": "NybSys.WASA.Common",
+        "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Common\\NybSys.WASA.Common.csproj",
+        "packagesPath": "C:\\Users\\Remon\\.nuget\\packages\\",
+        "outputPath": "F:\\wasa-dashboard\\NybSys.WASA.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Remon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "F:\\wasa-dashboard\\NybSys.WASA.Models\\NybSys.WASA.Models.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Models\\NybSys.WASA.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AWSSDK.Core": {
+              "target": "Package",
+              "version": "[3.3.103.29, )"
+            },
+            "IKVM": {
+              "target": "Package",
+              "version": "[8.1.5717, )"
+            },
+            "IKVM-WithExes": {
+              "target": "Package",
+              "version": "[7.3.4830.1, )"
+            },
+            "LitJson": {
+              "target": "Package",
+              "version": "[0.13.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\wasa-dashboard\\NybSys.WASA.Customer.BLL\\NybSys.WASA.Customer.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\wasa-dashboard\\NybSys.WASA.Customer.BLL\\NybSys.WASA.Customer.BLL.csproj",
+        "projectName": "NybSys.WASA.Customer.BLL",
+        "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Customer.BLL\\NybSys.WASA.Customer.BLL.csproj",
+        "packagesPath": "C:\\Users\\Remon\\.nuget\\packages\\",
+        "outputPath": "F:\\wasa-dashboard\\NybSys.WASA.Customer.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Remon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "F:\\wasa-dashboard\\NybSys.WASA.Models\\NybSys.WASA.Models.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Models\\NybSys.WASA.Models.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.Repository\\NybSys.WASA.Repository.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Repository\\NybSys.WASA.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\wasa-dashboard\\NybSys.WASA.DAL\\NybSys.WASA.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\wasa-dashboard\\NybSys.WASA.DAL\\NybSys.WASA.DAL.csproj",
+        "projectName": "NybSys.WASA.DAL",
+        "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.DAL\\NybSys.WASA.DAL.csproj",
+        "packagesPath": "C:\\Users\\Remon\\.nuget\\packages\\",
+        "outputPath": "F:\\wasa-dashboard\\NybSys.WASA.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Remon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "F:\\wasa-dashboard\\NybSys.WASA.Models\\NybSys.WASA.Models.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Models\\NybSys.WASA.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[2.1.1.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\wasa-dashboard\\NybSys.WASA.Device.BLL\\NybSys.WASA.Device.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\wasa-dashboard\\NybSys.WASA.Device.BLL\\NybSys.WASA.Device.BLL.csproj",
+        "projectName": "NybSys.WASA.Device.BLL",
+        "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Device.BLL\\NybSys.WASA.Device.BLL.csproj",
+        "packagesPath": "C:\\Users\\Remon\\.nuget\\packages\\",
+        "outputPath": "F:\\wasa-dashboard\\NybSys.WASA.Device.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Remon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "F:\\wasa-dashboard\\NybSys.WASA.AuditLog.BLL\\NybSys.WASA.AuditLog.BLL.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.AuditLog.BLL\\NybSys.WASA.AuditLog.BLL.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.Models\\NybSys.WASA.Models.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Models\\NybSys.WASA.Models.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.Repository\\NybSys.WASA.Repository.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Repository\\NybSys.WASA.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\wasa-dashboard\\NybSys.WASA.ExceptionLogManager.BLL\\NybSys.WASA.ExceptionLogManger.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\wasa-dashboard\\NybSys.WASA.ExceptionLogManager.BLL\\NybSys.WASA.ExceptionLogManger.BLL.csproj",
+        "projectName": "NybSys.WASA.ExceptionLogManger.BLL",
+        "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.ExceptionLogManager.BLL\\NybSys.WASA.ExceptionLogManger.BLL.csproj",
+        "packagesPath": "C:\\Users\\Remon\\.nuget\\packages\\",
+        "outputPath": "F:\\wasa-dashboard\\NybSys.WASA.ExceptionLogManager.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Remon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "F:\\wasa-dashboard\\NybSys.WASA.AuditLog.BLL\\NybSys.WASA.AuditLog.BLL.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.AuditLog.BLL\\NybSys.WASA.AuditLog.BLL.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.Common\\NybSys.WASA.Common.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Common\\NybSys.WASA.Common.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.DAL\\NybSys.WASA.DAL.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.DAL\\NybSys.WASA.DAL.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.Models\\NybSys.WASA.Models.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Models\\NybSys.WASA.Models.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.Repository\\NybSys.WASA.Repository.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Repository\\NybSys.WASA.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\wasa-dashboard\\NybSys.WASA.Models\\NybSys.WASA.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\wasa-dashboard\\NybSys.WASA.Models\\NybSys.WASA.Models.csproj",
+        "projectName": "NybSys.WASA.Models",
+        "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Models\\NybSys.WASA.Models.csproj",
+        "packagesPath": "C:\\Users\\Remon\\.nuget\\packages\\",
+        "outputPath": "F:\\wasa-dashboard\\NybSys.WASA.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Remon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\wasa-dashboard\\NybSys.WASA.Repository\\NybSys.WASA.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\wasa-dashboard\\NybSys.WASA.Repository\\NybSys.WASA.Repository.csproj",
+        "projectName": "NybSys.WASA.Repository",
+        "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Repository\\NybSys.WASA.Repository.csproj",
+        "packagesPath": "C:\\Users\\Remon\\.nuget\\packages\\",
+        "outputPath": "F:\\wasa-dashboard\\NybSys.WASA.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Remon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "F:\\wasa-dashboard\\NybSys.WASA.Common\\NybSys.WASA.Common.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Common\\NybSys.WASA.Common.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.DAL\\NybSys.WASA.DAL.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.DAL\\NybSys.WASA.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\wasa-dashboard\\NybSys.WASA.Security.BLL\\NybSys.WASA.Security.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\wasa-dashboard\\NybSys.WASA.Security.BLL\\NybSys.WASA.Security.BLL.csproj",
+        "projectName": "NybSys.WASA.Security.BLL",
+        "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Security.BLL\\NybSys.WASA.Security.BLL.csproj",
+        "packagesPath": "C:\\Users\\Remon\\.nuget\\packages\\",
+        "outputPath": "F:\\wasa-dashboard\\NybSys.WASA.Security.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Remon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "F:\\wasa-dashboard\\NybSys.WASA.AuditLog.BLL\\NybSys.WASA.AuditLog.BLL.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.AuditLog.BLL\\NybSys.WASA.AuditLog.BLL.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.Models\\NybSys.WASA.Models.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Models\\NybSys.WASA.Models.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.Repository\\NybSys.WASA.Repository.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Repository\\NybSys.WASA.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\wasa-dashboard\\NybSys.WASA.User.BLL\\NybSys.WASA.User.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\wasa-dashboard\\NybSys.WASA.User.BLL\\NybSys.WASA.User.BLL.csproj",
+        "projectName": "NybSys.WASA.User.BLL",
+        "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.User.BLL\\NybSys.WASA.User.BLL.csproj",
+        "packagesPath": "C:\\Users\\Remon\\.nuget\\packages\\",
+        "outputPath": "F:\\wasa-dashboard\\NybSys.WASA.User.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Remon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "F:\\wasa-dashboard\\NybSys.WASA.AuditLog.BLL\\NybSys.WASA.AuditLog.BLL.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.AuditLog.BLL\\NybSys.WASA.AuditLog.BLL.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.Repository\\NybSys.WASA.Repository.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Repository\\NybSys.WASA.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\wasa-dashboard\\NybSys.WASA.Water.BLL\\NybSys.WASA.Water.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\wasa-dashboard\\NybSys.WASA.Water.BLL\\NybSys.WASA.Water.BLL.csproj",
+        "projectName": "NybSys.WASA.Water.BLL",
+        "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Water.BLL\\NybSys.WASA.Water.BLL.csproj",
+        "packagesPath": "C:\\Users\\Remon\\.nuget\\packages\\",
+        "outputPath": "F:\\wasa-dashboard\\NybSys.WASA.Water.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Remon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "F:\\wasa-dashboard\\NybSys.WASA.Repository\\NybSys.WASA.Repository.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Repository\\NybSys.WASA.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\wasa-dashboard\\NybSys.WASA.WorkerBackEnd\\NybSys.WASA.WorkerBackEnd.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\wasa-dashboard\\NybSys.WASA.WorkerBackEnd\\NybSys.WASA.WorkerBackEnd.csproj",
+        "projectName": "NybSys.WASA.WorkerBackEnd",
+        "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.WorkerBackEnd\\NybSys.WASA.WorkerBackEnd.csproj",
+        "packagesPath": "C:\\Users\\Remon\\.nuget\\packages\\",
+        "outputPath": "F:\\wasa-dashboard\\NybSys.WASA.WorkerBackEnd\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Remon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "F:\\wasa-dashboard\\NybSys.MassTransit.Broker\\NybSys.MassTransit.Broker.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.MassTransit.Broker\\NybSys.MassTransit.Broker.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.NServiceBus.Broker\\NybSys.NServiceBus.Broker.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.NServiceBus.Broker\\NybSys.NServiceBus.Broker.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.Account.BLL\\NybSys.WASA.Account.BLL.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Account.BLL\\NybSys.WASA.Account.BLL.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.AuditLog.BLL\\NybSys.WASA.AuditLog.BLL.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.AuditLog.BLL\\NybSys.WASA.AuditLog.BLL.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.Common\\NybSys.WASA.Common.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Common\\NybSys.WASA.Common.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.Customer.BLL\\NybSys.WASA.Customer.BLL.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Customer.BLL\\NybSys.WASA.Customer.BLL.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.Device.BLL\\NybSys.WASA.Device.BLL.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Device.BLL\\NybSys.WASA.Device.BLL.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.ExceptionLogManager.BLL\\NybSys.WASA.ExceptionLogManger.BLL.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.ExceptionLogManager.BLL\\NybSys.WASA.ExceptionLogManger.BLL.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.Models\\NybSys.WASA.Models.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Models\\NybSys.WASA.Models.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.Security.BLL\\NybSys.WASA.Security.BLL.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Security.BLL\\NybSys.WASA.Security.BLL.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.User.BLL\\NybSys.WASA.User.BLL.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.User.BLL\\NybSys.WASA.User.BLL.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.Water.BLL\\NybSys.WASA.Water.BLL.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Water.BLL\\NybSys.WASA.Water.BLL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "StructureMap.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\wasa-dashboard\\testapi\\NybSys.WASA.BkashApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\wasa-dashboard\\testapi\\NybSys.WASA.BkashApi.csproj",
+        "projectName": "NybSys.WASA.BkashApi",
+        "projectPath": "F:\\wasa-dashboard\\testapi\\NybSys.WASA.BkashApi.csproj",
+        "packagesPath": "C:\\Users\\Remon\\.nuget\\packages\\",
+        "outputPath": "F:\\wasa-dashboard\\testapi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Remon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "F:\\wasa-dashboard\\NybSys.WASA.Account.BLL\\NybSys.WASA.Account.BLL.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Account.BLL\\NybSys.WASA.Account.BLL.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.AuditLog.BLL\\NybSys.WASA.AuditLog.BLL.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.AuditLog.BLL\\NybSys.WASA.AuditLog.BLL.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.Common\\NybSys.WASA.Common.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Common\\NybSys.WASA.Common.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.DAL\\NybSys.WASA.DAL.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.DAL\\NybSys.WASA.DAL.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.ExceptionLogManager.BLL\\NybSys.WASA.ExceptionLogManger.BLL.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.ExceptionLogManager.BLL\\NybSys.WASA.ExceptionLogManger.BLL.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.Models\\NybSys.WASA.Models.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Models\\NybSys.WASA.Models.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.Repository\\NybSys.WASA.Repository.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Repository\\NybSys.WASA.Repository.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.Water.BLL\\NybSys.WASA.Water.BLL.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.Water.BLL\\NybSys.WASA.Water.BLL.csproj"
+              },
+              "F:\\wasa-dashboard\\NybSys.WASA.WorkerBackEnd\\NybSys.WASA.WorkerBackEnd.csproj": {
+                "projectPath": "F:\\wasa-dashboard\\NybSys.WASA.WorkerBackEnd\\NybSys.WASA.WorkerBackEnd.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
